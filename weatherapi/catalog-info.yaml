@@ -3,10 +3,14 @@ kind: API
 metadata:
   name: weather-api
   description: Service to receive weather forcast
+  links:
+    - url: https://backstage-demo-weather-api.azurewebsites.net/
+      title: Test Api
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: production
   owner: group:default/rockstars
   system: backstage-weather-demo
   definition: 
-    $text: https://github.com/jacobduijzer/BackstageDemoProjects/tree/main/weatherapi/WeatherApi.Api/swagger.json
+    $text: https://backstage-demo-weather-api.azurewebsites.net/swagger/v1/swagger.json
