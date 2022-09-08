@@ -52,11 +52,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
+      - name: Restore
+        run: dotnet restore weatherapi/WeatherApi.sln
+        
       - name: Build with dotnet
-        run: dotnet build --configuration Release weatherapi/WeatherApi.sln
+        run: dotnet build --configuration Release weatherapi/WeatherApi.sln --no-restore
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp weatherapi/WeatherApi.sln
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp weatherapi/WeatherApi.sln --no-build
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
