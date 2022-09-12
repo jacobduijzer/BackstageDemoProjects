@@ -11,6 +11,6 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:default/rockstars
-  system: backstage-weather-demo
+  system: forecasting-system
   definition: 
     $text: https://backstage-demo-weather-api.azurewebsites.net/swagger/v1/swagger.json
