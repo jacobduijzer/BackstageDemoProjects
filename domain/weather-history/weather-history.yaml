@@ -3,6 +3,8 @@ kind: Domain
 metadata:
   name: weather-history
   description: Everything related to the history of weather forcasting.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: http://example.com/domain/artists/
       title: Domain Readme

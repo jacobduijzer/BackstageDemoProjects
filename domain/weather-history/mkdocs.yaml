@@ -1,0 +1,10 @@
+site_name: 'Weater History'
+site_description: 'Main documentation for the Weather History domain'
+repo_url: https://github.com/jacobduijzer/BackstageDemoProjects/tree/main/domain/weather-history
+edit_uri: edit/master/docs
+
+plugins:
+  - techdocs-core
+  
+nav:
+  - Overview: 'overview.md'
