@@ -1,6 +1,6 @@
-site_name: 'Pizza Orders'
-site_description: 'Main documentation for the Pizza Orders domain'
-repo_url: https://github.com/jacobduijzer/BackstageDemoProjects/tree/main/pizzashop/domains/orders
+site_name: 'Forecasting'
+site_description: 'Main documentation for the forecasting domain'
+repo_url: https://github.com/jacobduijzer/BackstageDemoProjects/tree/main/domain/forecasting
 edit_uri: edit/master/docs
 
 plugins:
