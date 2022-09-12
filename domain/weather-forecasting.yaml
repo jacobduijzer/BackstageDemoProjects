@@ -11,4 +11,3 @@ metadata:
       icon: dashboard
 spec:
   owner: group:default/rockstars 
-  domain: weather
