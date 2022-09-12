@@ -1,0 +1,10 @@
+site_name: 'Weather'
+site_description: 'Main documentation for the Weather domain'
+repo_url: https://github.com/jacobduijzer/BackstageDemoProjects/tree/main/domain/weather
+edit_uri: edit/master/docs
+
+plugins:
+  - techdocs-core
+  
+nav:
+  - Overview: 'overview.md'
