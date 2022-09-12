@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: satellite-communication-system
+  description: the system for communicating with weather forecasting sattelites
+spec:
+  owner: group:default/rockstars
+  domain: weather-forecasting
