@@ -4,7 +4,7 @@ metadata:
   name: weather-api
   description: Service to receive weather forcast
   links:
-    - url: https://backstage-demo-weather-api.azurewebsites.net/
+    - url: https://backstage-demo-weather-api.azurewebsites.net/swagger
       title: Test Api
       icon: dashboard
 spec:
