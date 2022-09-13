@@ -10,7 +10,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:default/rockstars
+  owner: group:default/backstage_team
   system: forecasting-system
   definition: 
     $text: https://backstage-demo-weather-api.azurewebsites.net/swagger/v1/swagger.json
