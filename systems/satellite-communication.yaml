@@ -5,4 +5,5 @@ metadata:
   description: the system for communicating with weather forecasting sattelites
 spec:
   owner: group:default/rockstars
+  lifecycle: experimental
   domain: weather-forecasting
