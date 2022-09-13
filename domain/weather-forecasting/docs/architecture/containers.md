@@ -2,6 +2,7 @@
 ```plantuml
 @startuml
 !include <C4/C4_Container.puml>
+title Container diagram for Pizza Order Api - API Application
 
 Enterprise_Boundary(pizzaEnterprise, "PizzaShop") {
 
