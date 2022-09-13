@@ -1,7 +1,7 @@
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include <C4/C4_Container.puml>
 
 Enterprise_Boundary(pizzaEnterprise, "PizzaShop") {
 
