@@ -12,4 +12,5 @@ spec:
   lifecycle: production
   owner: group:default/backstage_team
   system: forecasting-system
-  consumesApis: ['weather-api']
+  providesApis: 
+    - weather-api
