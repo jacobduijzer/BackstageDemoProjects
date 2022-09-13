@@ -7,7 +7,7 @@ title Container diagram for Pizza Order Api - API Application
 Enterprise_Boundary(pizzaEnterprise, "PizzaShop") {
 
   System_Boundary(platform, "Platform") {
-    ContainerQueue(serviceBus, "Service bus", "RabbitMq")
+    'ContainerQueue(serviceBus, "Service bus", "RabbitMq")
   }
 
   System_Boundary(orderSystem, "Order System") {
@@ -17,8 +17,8 @@ Enterprise_Boundary(pizzaEnterprise, "PizzaShop") {
     BiRel(orderApi, orderDb, "Order details")
   }
 
-  Rel(serviceBus, orderApi, "order details", "messaging")
-  Rel(orderApi, serviceBus, "delivery request", "messaging")
+  'Rel(serviceBus, orderApi, "order details", "messaging")
+  'Rel(orderApi, serviceBus, "delivery request", "messaging")
 }
 @enduml
 ```
