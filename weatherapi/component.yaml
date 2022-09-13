@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: weather-api
+  description: Weather API
+  tags:
+    - dotnet
+    - csharp
+    - webapi
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/rockstars
+  system: forecasting-system
