@@ -10,6 +10,6 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: group:default/rockstars
+  owner: group:default/backstage_team
   system: forecasting-system
   consumesApis: ['weather-api']
