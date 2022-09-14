@@ -13,4 +13,3 @@ metadata:
       icon: dashboard
 spec:
   owner: group:default/backstage_team
-  dependsOn: ['domain:weather']
