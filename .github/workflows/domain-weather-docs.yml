@@ -1,0 +1,24 @@
+name: Publish Weather domain Tech-Docs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "domain/weather/**"
+      - ".github/workflows/domain-weather-docs.yml"
+  workflow_dispatch:
+
+jobs:
+  publish-techdocs-site:
+    name: Publish TechDocs Site
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Setup Node
+        uses: Staffbase/backstage-techdocs-action@v1
+        with:
+          entity-name: 'weather'
+          publisher-type: 'azureBlobStorage'
+          storage-name: 'techdocs'
+          azure-account-name: ${{ secrets.TECHDOCS_AZURE_ACCOUNT_NAME }}
+          azure-account-key: ${{ secrets.TECHDOCS_AZURE_ACCESS_KEY }}
