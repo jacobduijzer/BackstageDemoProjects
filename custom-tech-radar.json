@@ -62,6 +62,15 @@
                     "description": "Long description for trial"
                 }
             ]
+        },
+         {
+            "id": "tanzu",
+            "title": "Tanzu",
+            "description": "VMware Tanzu is a cloud native application platform that enables vital DevSecOps outcomes in a multi-cloud world.",
+            "key": "tanzu",
+            "url": "https://tanzu.vmware.com/platform",
+            "quadrant": "3",
+           
         }
     ]
 }
