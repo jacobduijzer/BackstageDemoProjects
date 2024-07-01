@@ -70,7 +70,7 @@
             "key": "tanzu",
             "url": "https://tanzu.vmware.com/platform",
             "quadrant": "3",
-             "timeline": 
+             "timeline": [
               {
                     "moved": 2,
                     "ringId": "hold",
