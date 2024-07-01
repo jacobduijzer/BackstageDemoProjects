@@ -70,6 +70,20 @@
             "key": "tanzu",
             "url": "https://tanzu.vmware.com/platform",
             "quadrant": "3",
+             "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-02-08",
+                    "description": "Started to implement"
+                },
+                {
+                    "moved": 1,
+                    "ringId": "hold",
+                    "date": "2024-05-01",
+                    "description": "Moving to AKS"
+                }
+            ]
            
         }
     ]
